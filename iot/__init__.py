@@ -1,0 +1,1 @@
+"""IoT adapter package placeholder."""

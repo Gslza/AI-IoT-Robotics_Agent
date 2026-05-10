@@ -1,0 +1,1 @@
+"""Networking adapter package placeholder."""

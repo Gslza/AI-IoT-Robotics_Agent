@@ -1,0 +1,33 @@
+project_name: AI_IoT_Robotics_Agent_System
+version: "1.0"
+architecture: Multi-Agent Architecture
+agents:
+  - Orchestrator_Agent
+  - Planner_Agent
+  - Memory_Agent
+  - Vision_Agent
+  - IoT_Agent
+  - Robotics_Agent
+  - Networking_Agent
+  - Tool_Agent
+iot:
+  microcontrollers:
+    - ESP32 DevKit V1
+    - ESP32-C3
+    - Arduino Uno
+  protocols:
+    - MQTT
+    - HTTP
+    - WebSocket
+    - I2C
+    - SPI
+    - UART
+vision:
+  object_detection: YOLO11
+  ocr: PaddleOCR
+deployment:
+  - Linux
+  - Docker
+  - Cloud Server
+  - Edge Device
+  - Raspberry Pi

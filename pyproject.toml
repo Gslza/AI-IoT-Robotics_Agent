@@ -1,0 +1,26 @@
+[project]
+name = "ai-iot-robotics-agent-system"
+version = "1.0.0"
+description = "Multi-agent AI system for IoT, robotics, computer vision, networking, and automation."
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110",
+  "pydantic>=2.0",
+  "uvicorn>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+vision = [
+  "ultralytics>=8.3",
+  "paddleocr>=2.7",
+]
+iot = [
+  "paho-mqtt>=2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
